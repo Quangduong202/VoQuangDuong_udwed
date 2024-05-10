@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css.css">
+    <script src="assets/jquery/jquery.js"></script>
+</head>
+
+<body>
+    <div class="col-md-5 py-2">
+        <div class="serachpc d-lg-block ">
+          <div class="searchform m-2">
+            <form action="/search" method="get" class="" role="search">
+              <input type="text" aria-label="Tìm sản phẩm" name="query" value="" autocomplete="off"
+                placeholder="Tìm kiếm..." class="search-auto" required=""
+                style="width: 85%;">
+              <button type="submit" class="visible_index btn ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <header class="section_header bg-white"></header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="index.html">
+                    <img src="assets/imge/logo.webp" class="img-logo" alt="">
+
+                </a>
+            </div>
+            <div class="col-md-7 ">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Trang chủ</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Thông tin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Đăng kí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Đắng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="nav">
+                    <li class="nav-item px-3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </li>
+                    <li class="nav-item px-3">
+                        <i class="fa-solid fa-user"></i>
+
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-regular fa-heart px-3"></i>
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- product -->
+        <!-- slide -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-6">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="assets/imge/giay1.jpeg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/imge/giay2jpeg.jpeg" class="card-img-top" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/imge/giay3.jpeg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- sp -->
+        <div class="product">
+            <div class="contain col-md-3 ">
+                <img class="card-img-top" src="assets/imge/sp1.jpg" alt="Card image">
+                <h4 class="card-title"></h4>
+                <div class="card-body  d-flex justify-content-between">
+                    <div class=" p-2">
+                        <p><span class="text-danger"></span> <br>
+                            <a href="">
+                                <button type="button" class="btn btn-info">Chi tiết</button>
+                        </p></a>
+                    </div>
+                    <div class="p-2">
+                        <p><span class="d">20$</span> <br>
+                            <a href=""> <button type="button" class="btn btn-info">Thêm giỏ hàng </button></a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="favorite">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3</span>
+                </div>
+
+            </div>
+            <div>
+
+                <h3>Sản phẩm nhiều lượt xem</h3>
+                <div class="contain col-md-3 ">
+                    <img class="card-img-top" src="assets/imge/sp1.jpg" alt="Card image">
+                    <h4 class="card-title"></h4>
+                    <div class="card-body  d-flex justify-content-between">
+                        <div class=" p-2">
+                            <p><span class="text-danger"></span> <br>
+                                <a href="">
+                                    <button type="button" class="btn btn-info">Chi tiết</button>
+                            </p></a>
+                        </div>
+                        <div class="p-2">
+                            <p><span class="d">20$</span> <br>
+                                <a href=""> <button type="button" class="btn btn-info">Thêm giỏ hàng </button></a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="favorite">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>3</span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- footer -->
+            <footer class="section_footer bg-dark pt-4">
+                <div class="container">
+                    <div class="row text-white">
+                        <div class="col-md-3">
+                            <h5>thông tin lien hệ</h5>
+                            <ul>
+                                Địa chỉ :
+                            </ul>
+                            <ul>
+                                Điện thoại:
+                            </ul>
+                            <ul>
+                                Email:
+                            </ul>
+
+                        </div>
+                        <div class="col-md-4">
+                            CHÍNH SÁCH
+                            <ul>
+                                Chính sách thành viên
+                            </ul>
+                            <ul>
+                                Chính sách thanh toán
+                            </ul>
+                            <ul>
+                                Chính sách đổi sản phẩm
+                            </ul>
+                            <ul>
+                                Chính sách bảo mật
+                            </ul>
+                            <ul>
+                                Chính sách cộng tác viên
+                            </ul>
+                            <ul>
+                                Chính sách bảo hành
+                            </ul>
+                            <ul>
+                                Quy định sử dụng
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5>Hướng dẫn</h5>
+                            <ul>
+                                <li>
+                                    Hướng dẫn đổi trả
+
+                                </li>
+                                <li>
+                                    Hướng dẫn thanh toán
+
+                                </li>
+                                <li>
+                                    Chương trình cộng tác viên
+
+                                </li>
+                                <li>
+                                    Câu hỏi thường gặp
+
+                                </li>
+                                <li>
+                                    Tìm kiếm
+
+                                </li>
+                                <li>
+                                    Liên hệ
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="assets/js.js"></script>
+</body>
+
+</html>

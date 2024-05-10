@@ -1,0 +1,44 @@
+.nav-item:hover{
+    background-color: rgb(127, 210, 224);
+    position: relative;
+    display: inline-block;
+    font-size: lem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    border-radius: 10px;
+}
+.nav-item{
+    border: 25px;
+}
+.contain{
+    border-radius: 16px;
+}
+.navbar-nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.favorite{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fa-regular{
+    color:red;
+}
+.slide{
+    display:flex;
+    padding:3px;
+    overflow:hidden;
+}
+img{
+    padding:3px;
+}
+.nav-item:hover{
+    width:90px;
+}
